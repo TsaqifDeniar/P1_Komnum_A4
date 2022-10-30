@@ -35,7 +35,7 @@ Untuk melakukan taksiran selanjutnya, perlu mengubah batas atas `(Xu)` atau bata
 hitung kembali taksiran `(Xr)` menggunakan batas atas dan batas bawah terbaru sampai ditemukan kondisi `f(Xr) = 0` atau `f(Xr) mendekati 0` . 
 
 
-## Implementasi Algoritma Metode Bolzano menjadi Sebuag Program Komputer
+## Implementasi Algoritma Metode Bolzano menjadi Sebuah Program Komputer
 
 
 Pertama, panggil kelas Bolzano dengan menggunakan parameter seperti `koefList` untuk fungsi (fx), `intervalBawah` (xl) dan `intervalAtas` (xu) sebagai batas nilai x, `ketelitian` untuk jumlah angka di belakang koma, dan `maxiter` sebagai batas iterasi yang akan kita lakukan dimana jika iterasi melebihi batas tersebut maka iterasi akan dihentikan dan akar persamaan tidak bisa ditemukan.
